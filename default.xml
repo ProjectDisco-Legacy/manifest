@@ -13,7 +13,6 @@
 
   <project name="ProjectDisco-Legacy/android_build" path="build" groups="pdk,tradefed" remote="github" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
